@@ -7,47 +7,43 @@
   <style>
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
     body {
       background-color: #000000;
-      margin: 0;
-      padding: 0;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       min-height: 100vh;
-      font-family: sans-serif;
     }
     .container {
       width: 100%;
-      max-width: 600px; /* يعرض الموقع بشكل مرتب كصفحة هاتف/ويب ريترو */
+      max-width: 600px;
       display: flex;
       flex-direction: column;
       align-items: center;
       background-color: #000000;
-      border: 1px solid #222;
     }
     .section-img {
       width: 100%;
       height: auto;
       display: block;
+      border: none;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <!-- الجزء العلمي العلوي (معلومات الحساب والاسم) -->
-    <img src="IMG_1331.jpeg" alt="Header Info" class="section-img">
+    <!-- 1. صورة المعلومات الشخصية العلوية -->
+    <img src="IMG_1331.jpeg" alt="Personal Info" class="section-img">
 
+    <!-- 2. صورة الكولاج الرئيسية في النص -->
+    <img src="IMG_1336.jpeg" alt="Main Collage" class="section-img">
 
-    <!-- الجزء الأوسط (الكولاج والصور) -->
-    <img src="IMG_1336.jpeg" alt="Collage" class="section-img">
-
-
-    <!-- الجزء السفلي (الاهتمامات العامة) -->
+    <!-- 3. صورة الاهتمامات العامة في الأسفل -->
     <img src="IMG_1339.jpeg" alt="General Interests" class="section-img">
-
   </div>
 
 </body>
